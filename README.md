@@ -1,16 +1,4 @@
 # flutter_weatherapp_bloc
 
-A new Flutter project.
-
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+All you need to run this app is go to https://openweathermap.org/ signin and get your api_key , after go to project and open my_data.dart and put your API_KEY here  ![image](https://github.com/VihaoHT/Flutter-Weather-App-Using-Bloc---API/assets/117084004/c34a058e-461e-406a-9ad1-3175ade9da40) and done!
