@@ -15,6 +15,17 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  String getGreeting() {
+    var hour = DateTime.now().hour;
+
+    if (hour < 12) {
+      return 'Good morning';
+    } else if (hour < 18) {
+      return 'Good afternoon';
+    } else {
+      return 'Good night';
+    }
+  }
 
   //get icon depend on weather condition code
   Widget getWeatherIcon(int code) {
@@ -111,9 +122,9 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           ),
                           const SizedBox(height: 8),
-                          const Text(
-                            'Good Morning',
-                            style: TextStyle(
+                           Text(
+                            getGreeting(),
+                            style: const TextStyle(
                               color: Colors.white,
                               fontSize: 25,
                               fontWeight: FontWeight.bold,
